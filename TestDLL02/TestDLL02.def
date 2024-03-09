@@ -1,0 +1,10 @@
+; TestDLL02.def
+;
+; defines the exported functions which will be available to the MSI engine
+;
+LIBRARY    "TestDLL02"
+;DESCRIPTION    'Custom Action DLL created for CodeProject.com'
+EXPORTS
+    SampleFunction
+    SampleFunction2
+    SampleFunction3
